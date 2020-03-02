@@ -4,9 +4,7 @@ var header = document.createElement('h1');
 header.textContent = "This is Sudo-CanvasKit Page!";
 document.body.appendChild(header);
 
-// socket?
-// canvaskit -> server (node_modules)
-//const socket = io()
+
 const canvas = document.getElementById('main')
 
 init()
@@ -27,6 +25,7 @@ async function init() {
   }
 
 
+  // for testing
   const skcanvas = surface.getCanvas();
   const paint = new CanvasKit.SkPaint();
 
