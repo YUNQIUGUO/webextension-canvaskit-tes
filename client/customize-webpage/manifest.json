@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "modify-page-to-draw",
+    "version": "1.0",
+  
+    "permissions": [
+      "activeTab",
+      "contextMenus"
+    ],
+  
+    "background": {
+      "page": "draw-text.html"
+    }
+    
+  } 
